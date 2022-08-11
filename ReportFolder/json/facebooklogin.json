@@ -1,0 +1,406 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-16T11:02:19.392Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2252802300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.starting()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "",
+        "description": "    To Validate Login using invalid username and invalid password",
+        "id": ";;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 185654300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.ending()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1402213300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter in to facebook login page",
+            "match": {
+              "location": "StepDefinition.user_enter_in_to_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183160300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter \"priya123@gmail.com\" and \"priya123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"priya123@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"priya123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4073920700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18552684400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@facebook1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-16T11:02:46.073Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1392319300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.starting()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "",
+        "description": "    To Validate Login using invalid username and invalid password",
+        "id": ";;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 180123200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.ending()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1313450900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter in to facebook login page",
+            "match": {
+              "location": "StepDefinition.user_enter_in_to_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163504400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter \"mohana123@gmail.com\" and \"mohana123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohana123@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"mohana123\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4057652700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2168549500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@facebook1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-16T11:02:55.349Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1435521900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.starting()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "",
+        "description": "    To Validate Login using invalid username and invalid password",
+        "id": ";;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 185250700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.ending()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1513645200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter in to facebook login page",
+            "match": {
+              "location": "StepDefinition.user_enter_in_to_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156538800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter \"tharun123@gmail.com\" and \"tharun123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tharun123@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"tharun123\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4087640000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 969977500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@facebook1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-16T11:03:03.701Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1385368700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.starting()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "",
+        "description": "    To Validate Login using invalid username and invalid password",
+        "id": ";;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 211273700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.ending()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1522579100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter in to facebook login page",
+            "match": {
+              "location": "StepDefinition.user_enter_in_to_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199968600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter \"rudran123@gmail.com\" and \"rudran123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rudran123@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"rudran123\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4079355600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145049000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@facebook1"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  To validate Login Functionality of Facebook Application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/FaceBookLogin.feature",
+    "tags": [
+      {
+        "name": "@facebook1",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
